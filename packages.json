@@ -1,0 +1,238 @@
+{
+  "essential": {
+    "build-essential": true,
+    "make": true,
+    "cmake": true,
+    "curl": true,
+    "unzip": true,
+    "pkg-config": true,
+    "wget": true
+  },
+  "system_tools": {
+    "tree": true,
+    "htop": true,
+    "network": {
+      "ping": false,
+      "traceroute": false,
+      "netstat": false,
+      "dig": false,
+      "nmap": false,
+      "tcpdump": false
+    },
+    "text_processing": {
+      "grep": false,
+      "sed": false,
+      "awk": false,
+      "diff": false,
+      "sort": false,
+      "uniq": false
+    },
+    "system_administration": {
+      "tar": false,
+      "bzip2": false,
+      "gzip": false,
+      "rsync": false,
+      "sudo": false,
+      "cron": false,
+      "systemctl": false,
+      "lsblk": false
+    },
+    "development_utilities": {
+      "man": false,
+      "bash-completion": false,
+      "git-extras": false
+    },
+    "productivity": {
+      "tmux": false,
+      "screen": false
+    }
+  },
+  "editors": {
+    "vscode": false,
+    "pycharm": false,
+    "eclipse": false,
+    "netbeans": false,
+    "intellij_idea": false,
+    "sublime_text": false,
+    "atom": false,
+    "vim": true,
+    "emacs": true,
+    "nano": true
+  },
+  "version_control": {
+    "git": true,
+    "svn": false,
+    "mercurial": false,
+    "bazaar": false
+  },
+  "ci_cd": {
+    "jenkins": false,
+    "travis_ci": false,
+    "circleci": false,
+    "gitlab_ci": false,
+    "github_actions": false
+  },
+  "containerization": {
+    "docker": {
+      "docker": false,
+      "docker-compose": false,
+      "kubernetes": false,
+      "docker-machine": false,
+      "docker-swarm": false,
+      "portainer": false,
+      "rancher": false,
+      "minikube": false,
+      "kubectl": false,
+      "kind": false,
+      "helm": false,
+      "skaffold": false,
+      "kustomize": false,
+      "containerd": false,
+      "cri-o": false,
+      "podman": false,
+      "buildah": false
+    },
+    "virtualbox": false,
+    "vagrant": false
+  },
+  "configuration_management": {
+    "ansible": false,
+    "puppet": false,
+    "chef": false,
+    "terraform": false,
+    "saltstack": false
+  },
+  "cloud_cli": {
+    "aws_cli": false,
+    "azure_cli": false,
+    "gcloud_cli": false,
+    "heroku_cli": false
+  },
+  "api_tools": {
+    "postman": true,
+    "insomnia": false,
+    "httpie": false
+  },
+  "debugging_profiling": {
+    "gdb": true,
+    "valgrind": false,
+    "strace": false,
+    "ltrace": false
+  },
+  "build_systems": {
+    "make": true,
+    "cmake": true,
+    "ninja": false,
+    "bazel": false
+  },
+  "cpp_tools": {
+    "gcc": true,
+    "clang": true,
+    "gdb": true
+  },
+  "package_managers": {
+    "apt": true,
+    "yum": false,
+    "dnf": false,
+    "pacman": false,
+    "snap": false,
+    "flatpak": false,
+    "brew": false
+  },
+  "languages": {
+    "nodejs": {
+      "nodejs": false,
+      "npm": false,
+      "nvm": true,
+      "express": false,
+      "nest": false,
+      "next": false,
+      "react": false,
+      "vue": false,
+      "yarn": false
+    },
+    "python": {
+      "python3": true,
+      "python3-pip": true,
+      "pipenv": false,
+      "pipx": true,
+      "poetry": true,
+      "virtualenv": true,
+      "django": false,
+      "flask": false,
+      "fastapi": false,
+      "pandas": false,
+      "numpy": false
+    },
+    "php": {
+      "php": true,
+      "composer": true,
+      "laravel": false,
+      "symfony": false,
+      "cakephp": false,
+      "codeigniter": false,
+      "drupal": false,
+      "wordpress": false
+    },
+    "ruby": {
+      "ruby": false,
+      "rails": false,
+      "sinatra": false,
+      "rake": false,
+      "bundler": false
+    },
+    "perl": {
+      "perl": false,
+      "cpanminus": false,
+      "dancer": false,
+      "mojolicious": false,
+      "catalyst": false
+    },
+    "java": {
+      "java": false,
+      "maven": false,
+      "gradle": false,
+      "spring": false,
+      "hibernate": false
+    },
+    "go": {
+      "go": false,
+      "dep": false,
+      "glide": false,
+      "viper": false,
+      "cobra": false
+    },
+    "rust": {
+      "rust": false,
+      "cargo": false,
+      "tokio": false,
+      "rocket": false,
+      "serde": false
+    }
+  },
+  "databases": {
+    "sql": {
+      "sqlitebrowser": true,
+      "sqlite": false,
+      "mysql": false,
+      "postgresql": false,
+      "mariadb": false,
+      "oracle": false,
+      "db2": false,
+      "firebird": false,
+      "informix": false
+    },
+    "nosql": {
+      "mongodb": false,
+      "redis": false,
+      "cassandra": false,
+      "couchdb": false,
+      "elasticsearch": false,
+      "hbase": false,
+      "influxdb": false,
+      "neo4j": false,
+      "riak": false,
+      "dynamodb": false
+    }
+  }
+}
